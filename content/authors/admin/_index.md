@@ -1,5 +1,5 @@
 ---
-bio: HI TESTj
+bio: FA-23
 education:
   courses:
   - course: MEng in Artificial Intelligence
@@ -86,5 +86,5 @@ title: R For Data Science
 ---
 
 This is the home page for my Independent Study: R 4 Human Ecology.
-A detailed description of each endevour, along with 
+Each project I pursue will be detailed here, along with products and reflections.
 {style="text-align: justify;"}
