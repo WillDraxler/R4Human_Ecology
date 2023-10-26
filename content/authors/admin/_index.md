@@ -17,7 +17,7 @@ interests:
 last_name: Chien
 name_pronunciation: Chien Shiung Wu
 organizations:
-- name: Stanford University
+- name: Stanford Universiteee
   url: https://www.stanford.edu/
 role: Professor of Artificial Intelligence
 skills:
