@@ -21,5 +21,19 @@ I wanted to specify the width of a string before a new line break, and have the 
 
 ![A photo of the flowchart I wrote out](flow_chart.jpg)
 
+After selecting an initial character to line break at, the function would check to see if the character to the left was a space. If it was, then the line break was saved. If it wasn't then the end selection would shift one character and restart the check.
+
 Once I had that written out, I simply started converting that idea into R code.
+
+It was actually very satisyfing to write code that was already planned out, and it was a pretty smooth process despite a couple of bugs that took many hours. I learned a lot after finding that the solution to the longest one was a lot simpler than I had assumed. I took that both as a lesson going forward, and also started a document to record all of my most arduous bugs, for technical reference in the future and for a record of ways to tackle these problems.
+
+```r
+library(tidyverse)
+x = c(1,2)
+y = c(3,4)
+data <- tibble(x, y)
+data %>% 
+ggplot(aes(x,y))+
+geom_point()
+```
 
