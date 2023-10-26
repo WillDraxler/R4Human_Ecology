@@ -8,18 +8,18 @@ education:
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
-first_name: Shiung Wu
+first_name: Will Draxler
 highlight_name: true
 interests:
 - Artificial Intelligence
 - Computational Linguistics
 - Information Retrieval
 last_name: Chien
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Will Draxler
 organizations:
-- name: Stanford Universiteee
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: College Of The Atlantic
+  url: https://www.coa.edu/
+role: Will Draxler
 skills:
 - items:
   - description: ""
@@ -82,7 +82,7 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: 吳健雄
+title: R For Data Science
 ---
 
 This is the home page for my Independent Study: R 4 Human Ecology.
