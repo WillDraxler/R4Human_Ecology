@@ -25,7 +25,7 @@ After selecting an initial character to line break at, the function would check 
 
 Once I had that written out, I simply started converting that idea into R code.
 
-It was actually very satisyfing to write code that was already planned out, and it was a pretty smooth process despite a couple of bugs that took many hours. I learned a lot after finding that the solution to the longest one was a lot simpler than I had assumed. I took that both as a lesson going forward, and also started a document to record all of my most arduous bugs, for technical reference in the future and for a record of ways to tackle these problems.
+It was actually very satisfying to write code that was already planned out, and it was a pretty smooth process despite a couple of bugs that took many hours. I learned a lot after finding that the solution to the longest one was a lot simpler than I had assumed. I took that both as a lesson going forward, and also started a document to record all of my most arduous bugs, for technical reference in the future and for a record of ways to tackle these problems.
 
 
 ```{r define line break function}
@@ -65,3 +65,4 @@ run_line_break <- function (input_text) {
 }
 ```
 
+This project set a strong start to this independent study, as well as a framework for motivated effort. If I was as focused on all my projects as I was with this one, I would find myself enjoying my work significantly more.
