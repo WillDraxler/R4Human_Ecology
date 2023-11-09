@@ -11,15 +11,14 @@ education:
 first_name: Will Draxler
 highlight_name: true
 interests:
-- Artificial Intelligence
+- Artificial gence
 - Computational Linguistics
 - Information Retrieval
-last_name: Chien
+
 name_pronunciation: Will Draxler
 organizations:
 - name: College Of The Atlantic
   url: https://www.coa.edu/
-role: Will Draxler
 skills:
 - items:
   - description: ""
@@ -82,7 +81,7 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: R For Data Science
+title: R For Human Ecology
 ---
 
 This is the home page for my Independent Study: R 4 Human Ecology.

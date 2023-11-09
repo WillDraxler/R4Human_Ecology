@@ -1,9 +1,9 @@
 ---
 title: "Line Breaks with Stringr"
 image:
-  caption: Photo by me
+  caption: Photo from Iconfinder.com
   focal_point: Smart
-date: "2016-04-27T00:00:00Z"
+date: "2023-10-25T00:00:00Z"
 tags: null
 summary: Building an automated line break addition system with Stringr
 url_code: ''
@@ -61,4 +61,4 @@ run_line_break <- function (input_text) {
 }
 ```
 
-This project set a strong start to this independent study, as well as a framework for motivated effort. If I was as focused on all my projects as I was with this one, I would find myself enjoying my work significantly more.
+This project set a strong start to this independent study, as well as a framework for motivated effort. If I was as focused on all my projects as I was with this one, I would find myself enjoying my work significantly more. Perhaps the takeaway there is to pursue interest and to build new skills as I work to keep myself engaged.
