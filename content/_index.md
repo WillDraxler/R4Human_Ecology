@@ -5,7 +5,7 @@ sections:
   content:
     title: Home
     username: admin
-
+  id: about
 
 - block: portfolio
   content:

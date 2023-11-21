@@ -4,7 +4,7 @@ title: Visulizing low tidal extremes using data scraping
 image:
   caption: Photo by me, Mount Desert Rock 2023
   focal_point: Smart
-date: "2023-11-04T00:00:00Z"
+date: "2023-10-07T00:00:00Z"
 summary: Visualizing the height of every low tide cycle in hopes of seeing how low tides vary in the future, using data scraped from USharbors
 ---
 

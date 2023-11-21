@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         }
     ],
-    "path": "~/REPOSITORIES/R4Human_Ecology/content/project"
+    "path": "~/REPOSITORIES/R4Human_Ecology/content/project/project_6_app"
 }

@@ -4,8 +4,6 @@ image:
   caption: Photo by me, Mount Desert Rock 2023
   focal_point: Smart
 summary: Creating a comprehensive weather data set of the MDR 2023 field season, for use in Herring and Black Backed Gull data analysis.
-tags:
-- Demo
 title: Learning to build collaboratively compatible data sets with Mount Desert Rock weather data
 ---
 
