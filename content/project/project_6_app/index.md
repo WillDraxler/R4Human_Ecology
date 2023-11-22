@@ -1,7 +1,7 @@
 ---
 date: "2023-11-14T00:00:00Z"
 image:
-  caption: Me, Acadia National Park
+  caption: Photo by Me, Acadia National Park
   focal_point: Smart
 summary: Creating a Shiny application based form for citizen science data collection of amphibians crossing roads during vernal mass migration.
 title: Citizen salamander science with Rshiny
@@ -27,8 +27,10 @@ In the end, I hosted the app using shinyapps.io, and it available here!
 [The Amphibian Data Collector](https://weopkb-will-draxler.shinyapps.io/amphibiandatacollector/)
 
 ## Going forward
-It wasn't until I was doing this write up, when I went to check for the local land trust that had disapointed me, that I found the [Vernal Pools Of Maine website](https://www.vernalpools.me/big-night/), and specifically [this page](https://www.vernalpools.me/big-night-Volunteer-Materials-and-Training/), which contains almost exactly the system I'd envisioned. It works across all of Maine, and would require minimal effort to maintain from year to year. Although I'd just spent all this time building a chunk of the same process, I'm really happy to see this. I didn't expect to be the only one who had this goal, and it's lovely to see it executed so well. What I really want to do now is contribute to this effort! This appears to be headed by a masters student at UMaine, and I've reached out to him in hopes of contributing to the project going forward. One thing that has caught my eye is this:
+It wasn't until I was doing this write up, when I went to check for the local land trust that had disapointed me, that I found the [Vernal Pools Of Maine website](https://www.vernalpools.me/big-night/), and specifically [this page](https://www.vernalpools.me/big-night-Volunteer-Materials-and-Training/), which contains almost exactly the system I'd envisioned. It works across all of Maine, and would require minimal effort to maintain from year to year. Although I'd just spent all this time building a chunk of the same process, I'm really happy to see this. I didn't expect to be the only one who had this goal, and it's lovely to see it executed so well. What I really want to do now is contribute to this effort! This is headed by a masters student, Greg LeClair at UMaine, and we've talked about bit on the topic of me contributing to the project going forward. One thing that has caught my eye is this:
 
 ![A screenshot of the vernalpools.me website stating that they are building a map based method of location selection](big_night_future.jpg)
 
 Building a map-based method of selecting a site location would be a perfect way to strengthen the weakness I found in my leaflet-shiny coordination usage, and if it's indended to be done using GIS, that would also line up well with my learning of the subject in the coming term. Out of all the projects this term, this has left me especially excited to continue into the future.
+
+Regardless of how that project goes though, this focus on Shiny has really showed me the power of the tool. I've seen how, with enough practice, I could make use of Shiny apps quite regularly. This process has brought up several ideas for use in personal apps, and I can envision countless academic situations that could use a little RShiny app. I'm genuinely looking forward to making more, despite the fact that the process can be a bit frustrating at times.

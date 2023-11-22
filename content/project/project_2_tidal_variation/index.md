@@ -76,3 +76,5 @@ The variation in low tide extremes is very regular, even having some visible sin
 ![A screenshot of a visualization depiction Moon Distance from Earth Vs Time](moon_distance.jpg)
 
 As I learned in Intro To Oceanography, tides are immensely complicated and vary greatly depending on where in the world they occur. The large number of variables which have a substantial effect make it difficult to understand which is causing specific variation, so this journey has been greatly enjoyable. By scraping and visualizing my own data, I've been able to get a far firmer understanding of this concept than if I had read online that the moon's proximity to earth causes variation in the tidal extremes from one lunar cycle to the next. This project has set a precedent which I intend to follow into the future, that if I don't understand a concept, getting hands on and working with the data gives me a sound, in depth comprehension that is not possible otherwise.
+
+And if you happen to need to find me on March 25th, 2024 at low tide, you will most certainally need to train your binoculars on Bar Ledge, becuase I'll out be there enjoying the shallowest water all year.
