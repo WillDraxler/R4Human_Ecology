@@ -15,7 +15,7 @@ It was immediately clear that I needed a lot of preliminary information before I
 
 ![A photo of a page of stats notes](notes.jpg)
 
-I next moved on to learning R specific information. I was lucky enough to find a resource in [Learning Statistics with R](https://learningstatisticswithr.com/lsr-0.6.pdf) by Danielle Navarro. It proved to be an incredible source of information, and although it was primarily intended for Psychology students, the majority of the concepts were applicable. The fact that this resource is publicly available is so incredible. The provision of learning resources amongst the R community is one of the things that makes me so eager to learn.
+I next moved on to learning R specific information. I was lucky enough to find a resource in [Learning Statistics with R](https://learningstatisticswithr.com/lsr-0.6.pdf) by Danielle Navarro. It proved to be an incredible source of information, and although it was primarily intended for Psychology students, the majority of the concepts were applicable. The fact that this resource is publicly available is so incredible. The provision of learning resources among the R community is one of the things that makes me so eager to learn.
 
 ![The title page of Learning Statistics with R](textbook.jpg)
 

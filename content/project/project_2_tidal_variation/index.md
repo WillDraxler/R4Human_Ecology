@@ -10,9 +10,9 @@ summary: Visualizing the height of every low tide cycle in hopes of seeing how l
 
 ## Background
 
-This project stemmed from an entirely different, non-data interested project of mine. Looking at variations in tidal height, I hypothesized that during the lowest low tide of the year, the depth between Bar Island and its neighbor, Bar Ledge would be shallow enough that one could walk across it. This ended up being correct, and I was able to walk out to Bar Ledge and back. This got me thinking though, is it possible to go during a tide so low that the bar is exposed? If so, when would that happen? This all got me asking more general questions, how do the most extreme low tides vary between lunar cycles, and when does that place the lowest upcoming low tides?
+This project stemmed from an entirely different, non-data interested project of mine. Looking at variations in tidal height, I hypothesized that during the lowest low tide of the year, the depth between Bar Island and its neighbor, Bar Ledge would be shallow enough that one could walk across it. This ended up being correct, and I was able to walk out to Bar Ledge and back. This got me thinking though, is it possible to go during a tide so low that the bar is exposed? If so, when would that happen? This all had me asking more general questions; how do the most extreme low tides vary between lunar cycles, and when does that place the lowest upcoming low tides?
 
-This built on my previous knowledge of lunar and tidal cycles. I understood that tides were most extreme during the full and new moon because being on the opposing/like side from the sun, the moon's force is amplified by the addition of the conjunction of the sun's graviatational force. Reversely, tides are least extreme during first and last quarter because the sun and moon are perpendicular to each other in relation to the Earth, and therefore are not contributing to the same graviational pull on our oceans. Thus, the most extreme low tide would be during a new or full moon, but how do those extremes vary beween cycles, and what other variables drive that variation?
+This built on my previous knowledge of lunar and tidal cycles. I understood that tides were most extreme during the full and new moon because being on the opposing/like side from the sun, the moon's force is amplified by the addition of the conjunction of the sun's gravitational force. Reversely, tides are least extreme during first and last quarter because the sun and moon are perpendicular to each other in relation to the Earth, and therefore are not contributing to the same gravitational pull on our oceans. Thus, the most extreme low tide would be during a new or full moon, but how do those extremes vary between cycles, and what other variables drive that variation?
 
 ## Process
 I actually ended up writing this code twice, the first iteration taught me a side lesson in making sure files save in Rstudio. In both cases, the scraping ended up being more complicated than expected. This is because USharbors.com formats their tide charts with every value under the same CSS selector.
@@ -29,9 +29,10 @@ To do this, I devised a line to select all the values of any given column, which
 filter(((row_number() - (number to select a given column)) %% 15) == 0)
 ```
 
-I then wrote a function to build that data into a dataframe, and iterated the scrape across the year.
+I then wrote a function to build that data into a data frame, and iterated the scrape across the year.
 
-```scrape_low_tide <- function(month, year){
+```
+scrape_low_tide <- function(month, year){
 
 url <- str_c("https://www.usharbors.com/harbor/maine/bar-harbor-me/tides/?tide=", year, "-", month, "#monthly-tide-chart")
 
@@ -77,4 +78,4 @@ The variation in low tide extremes is very regular, even having some visible sin
 
 As I learned in Intro To Oceanography, tides are immensely complicated and vary greatly depending on where in the world they occur. The large number of variables which have a substantial effect make it difficult to understand which is causing specific variation, so this journey has been greatly enjoyable. By scraping and visualizing my own data, I've been able to get a far firmer understanding of this concept than if I had read online that the moon's proximity to earth causes variation in the tidal extremes from one lunar cycle to the next. This project has set a precedent which I intend to follow into the future, that if I don't understand a concept, getting hands on and working with the data gives me a sound, in depth comprehension that is not possible otherwise.
 
-And if you happen to need to find me on March 25th, 2024 at low tide, you will most certainally need to train your binoculars on Bar Ledge, becuase I'll out be there enjoying the shallowest water all year.
+And if you happen to need to find me on March 25th, 2024 at low tide, you will most certainly need to train your binoculars on Bar Ledge, because I'll out be there enjoying the shallowest water all year.

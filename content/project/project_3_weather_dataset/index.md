@@ -9,11 +9,11 @@ title: Learning to build collaboratively compatible data sets with Mount Desert 
 
 ## Background
 
-The need for a data set to be built arose out of a miscommunication between the Edward McCormick Blaire Research Station on Mount Desert Rock and the Alice Eno Research Station on Great Duck Island. A research project on GDI attempted to observe any correlations between various weather conditions and fledgling success on both islands. The data collection was conducted, but the weather conditions on Mount Desert Rock were not recorded the way that the project leader had intended. Thus, a supplementary dataset was required, and instead of building one based on daily observations in the field, we sought to build one posthumously with data collected by the weather buoy at the station.
+The need for a data set to be built arose out of a miscommunication between the Edward McCormick Blair Research Station on Mount Desert Rock and the Alice Eno Research Station on Great Duck Island. A research project on GDI attempted to observe any correlations between various weather conditions and fledgling success on both islands. The data collection was conducted, but the weather conditions on Mount Desert Rock were not recorded the way that the project leader had intended. Thus, a supplementary data set was required, and instead of building one based on daily observations in the field, we sought to build one posthumously with data collected by the weather buoy at the station.
 
 ## Process
 
-The actual process was not all that exciting, but taught many lessons. To access the data, we downloaded it as a txt file from NOAA. There was then a large process of cleaning the data, and mutating each column and converting it to be the intended variable and unit. It was a process of finding various bits of data from several sources and making it all work.
+The actual process was not all that exciting, but taught many lessons. To access the data, we downloaded it as a .txt file from NOAA. There was then a large process of cleaning the data, and mutating each column and converting it to be the intended variable and unit. It was a process of finding various bits of data from several sources and making it all work.
 
 ```
 data_2023 <- read_csv("2023_all_season_data.csv")
@@ -63,10 +63,10 @@ test <- mdr_notes_2023 %>%
   write_csv("mdr_2023_season_weather.csv")
 ```
 
-The big lessons here were in communication though. After building one iteration of the data set, I found the product to still be messy, inaccurate, and incompatible with the GDI dataset. Only by reworking the process and writing a codebook to be more intentional and specific was I able to build a satisfactory product. 
+The big lessons here were in communication though. After building one iteration of the data set, I found the product to still be messy, inaccurate, and incompatible with the GDI data set. Only by reworking the process and writing a code book to be more intentional and specific was I able to build a satisfactory product. 
 
 ![A codebook for the MDR_weather data set](codebook.jpg)
 
-Being the basis of all data science, starting with good data is extremely important. Attention to detail is essential, and if we had accepted the initial dataset full of unit conversion errors and formatting differences, the final conclusions of the study would have been innacurate. The real solution is to do it right from the start, and building a clear and tidy codebook prior to any data collection would have prevented this issue from happening. Truly one of the most valuable lessons I have learned in Data Science is the importance and methods of collecting good data, and I will take that lesson with me forward. Being one of the Field Station Managers for the MDR 2024 field season, I now intend to devote time to ensuring that the data collection of every research project is clear, accurate, and tidy. I understand how valuable this is for analysis and collaboration and am grateful that experiences such as this project have given me that. understanding.
+Being the basis of all data science, starting with good data is extremely important. Attention to detail is essential, and if we had accepted the initial data set full of unit conversion errors and formatting differences, the final conclusions of the study would have been inaccurate. The real solution is to do it right from the start, and building a clear and tidy code book prior to any data collection would have prevented this issue from happening. Truly one of the most valuable lessons I have learned in Data Science is the importance and methods of collecting good data, and I will take that lesson with me forward. Being one of the Field Station Managers for the MDR 2024 field season, I now intend to devote time to ensuring that the data collection of every research project is clear, accurate, and tidy. I understand how valuable this is for analysis and collaboration and am grateful that experiences such as this project have given me that understanding.
 
 ![A section of the resulting data set](data_ex.jpg)

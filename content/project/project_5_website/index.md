@@ -3,7 +3,7 @@ date: "2023-10-19T00:00:00Z"
 image:
   caption: This site
   focal_point: Smart
-summary: Creating a website to house write ups of each project of this independent study using the RBlogDown package, building off of the Wowchemy theme by Hugo, and hosting the site on Netlify.
+summary: Creating a website to house write ups of each project of this independent study using the RBlogDown package, building off of the Wowchemy theme by Hugo, and hosting the site on Netlify
 title: Building a project website with RBlogDown, Hugo, and Netlify
 ---
 
@@ -13,7 +13,7 @@ This project was suggested by Laurie during the initial drafting process of this
 
 ## Process
 
-Prior to this project, I'd never really taken the time to understand websites and how they are built and hosted. It was one of those concepts that I thought I understood, but if I really delved into it I would find that I understood very little. As such, the beginning of this project was a lot. Having BlogDown build a website off of a single line of code was miraculous and made me really appreciate all of the resources built by previous developers, but the hosting process felt like I was stumbling around and narrowly avoiding disaster. I had several instances when the website would fail to build, or only load HTML, and it was clear that such bugs had me in a little over my head. 
+Prior to this project, I'd never really taken the time to understand websites and how they are built and hosted. It was one of those concepts that I thought I understood, but if I really delved into it I would find that I understood very little. As such, the beginning of this project entailed a lot of learning. Having BlogDown build a website off of a single line of code was miraculous and made me really appreciate all of the resources built by previous developers, but the hosting process felt like I was stumbling around and narrowly avoiding disaster. I had several instances when the website would fail to build, or only load HTML, and it was clear that such bugs had me in a little over my head. 
 
 ![A screenshot of the netlify build page where the deploys have failed](failed.jpg)
 
